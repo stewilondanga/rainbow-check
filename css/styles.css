@@ -209,10 +209,11 @@ body {
   animation-name: bounceInLeft;
 }
 
-/*.checkbow .checkbox:checked ~ .rainbow > .bow:nth-child(1) {
+.checkbow .checkbox:checked~.rainbow>.bow:nth-child(1) {
   background-color: #c0392b;
 }
-.checkbow .checkbox:checked ~ .rainbow > .bow:nth-child(2) {
+
+/*.checkbow .checkbox:checked ~ .rainbow > .bow:nth-child(2) {
   background-color: #d35400;
 }
 .checkbow .checkbox:checked ~ .rainbow > .bow:nth-child(3) {
