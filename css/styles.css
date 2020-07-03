@@ -44,11 +44,12 @@ body {
   margin: 0 auto;
 }
 
-/*.checkbow .checkbox {
+.checkbow .checkbox {
   opacity: .3;
   display: inline-block;
 }
-.checkbow .checkbox ~ .rainbow {
+
+/*.checkbow .checkbox ~ .rainbow {
   position: relative;
 }
 .checkbow .checkbox ~ .rainbow > .bow {
