@@ -229,10 +229,11 @@ body {
   background-color: #2980b9;
 }
 
-/*.checkbow .checkbox:checked ~ .rainbow > .bow:nth-child(6) {
+.checkbow .checkbox:checked~.rainbow>.bow:nth-child(6) {
   background-color: #c0392b;
 }
-.checkbow .checkbox:checked ~ .rainbow > .bow:nth-child(7) {
+
+/*.checkbow .checkbox:checked ~ .rainbow > .bow:nth-child(7) {
   background-color: #8e44ad;
 }
 .checkbow .checkbox:checked ~ .rainbow > .bow:nth-child(8) {
