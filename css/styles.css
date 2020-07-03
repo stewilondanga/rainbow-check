@@ -71,7 +71,7 @@ body {
   transition-delay: .9s;
 }
 
-/*.checkbow .checkbox ~ .rainbow > .bow:nth-child(1) {
+.checkbow .checkbox~.rainbow>.bow:nth-child(1) {
   top: 6px;
   left: 2.5px;
   width: 115px;
@@ -79,7 +79,8 @@ body {
   background-color: #e74c3c;
   z-index: 1;
 }
-.checkbow .checkbox ~ .rainbow > .bow:nth-child(2) {
+
+/*.checkbow .checkbox ~ .rainbow > .bow:nth-child(2) {
   top: 12px;
   left: 5px;
   width: 110px;
