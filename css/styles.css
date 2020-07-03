@@ -213,10 +213,11 @@ body {
   background-color: #c0392b;
 }
 
-/*.checkbow .checkbox:checked ~ .rainbow > .bow:nth-child(2) {
+.checkbow .checkbox:checked~.rainbow>.bow:nth-child(2) {
   background-color: #d35400;
 }
-.checkbow .checkbox:checked ~ .rainbow > .bow:nth-child(3) {
+
+/*.checkbow .checkbox:checked ~ .rainbow > .bow:nth-child(3) {
   background-color: #f39c12;
 }
 .checkbow .checkbox:checked ~ .rainbow > .bow:nth-child(4) {
