@@ -204,11 +204,12 @@ body {
   z-index: 10;
 }
 
-/*.checkbow .checkbox:checked ~ .rainbow > .bow {
+.checkbow .checkbox:checked~.rainbow>.bow {
   -webkit-animation-name: bounceInLeft;
-          animation-name: bounceInLeft;
+  animation-name: bounceInLeft;
 }
-.checkbow .checkbox:checked ~ .rainbow > .bow:nth-child(1) {
+
+/*.checkbow .checkbox:checked ~ .rainbow > .bow:nth-child(1) {
   background-color: #c0392b;
 }
 .checkbow .checkbox:checked ~ .rainbow > .bow:nth-child(2) {
