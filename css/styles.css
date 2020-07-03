@@ -37,13 +37,14 @@ body {
   right: auto;
 }
 
-/*.checkbow .rainbow,
+.checkbow .rainbow,
 .checkbow .bow {
   text-align: center;
   display: block;
   margin: 0 auto;
 }
-.checkbow .checkbox {
+
+/*.checkbow .checkbox {
   opacity: .3;
   display: inline-block;
 }
