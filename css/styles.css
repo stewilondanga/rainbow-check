@@ -103,11 +103,12 @@ body {
   z-index: 3;
 }
 
-/*.checkbow .checkbox ~ .rainbow > .bow:nth-child(3):not(.empty) {
+.checkbow .checkbox~.rainbow>.bow:nth-child(3):not(.empty) {
   -webkit-animation-delay: .4s;
-          animation-delay: .4s;
+  animation-delay: .4s;
 }
-.checkbow .checkbox ~ .rainbow > .bow:nth-child(4) {
+
+/*.checkbow .checkbox ~ .rainbow > .bow:nth-child(4) {
   top: 24px;
   left: 10px;
   width: 100px;
