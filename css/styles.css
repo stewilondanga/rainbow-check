@@ -237,12 +237,11 @@ body {
   background-color: #8e44ad;
 }
 
-/*.checkbow .checkbox:checked ~ .rainbow > .bow:nth-child(8) {
+.checkbow .checkbox:checked~.rainbow>.bow:nth-child(8) {
   background-color: #ecf0f1;
 }
 
-
-.containers {
+/*.containers {
   width: 520px;
   margin: 20px auto;
 }
