@@ -49,10 +49,11 @@ body {
   display: inline-block;
 }
 
-/*.checkbow .checkbox ~ .rainbow {
+.checkbow .checkbox~.rainbow {
   position: relative;
 }
-.checkbow .checkbox ~ .rainbow > .bow {
+
+/*.checkbow .checkbox ~ .rainbow > .bow {
   width: 120px;
   height: 120px;
   background-color: #ecf0f1;
