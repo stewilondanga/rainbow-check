@@ -178,21 +178,22 @@ body {
   animation-delay: .9s;
 }
 
-/*.checkbow .checkbox ~ .rainbow > .bow:not(.empty) {
+.checkbow .checkbox~.rainbow>.bow:not(.empty) {
   -webkit-animation-name: bounceOutLeft;
-          animation-name: bounceOutLeft;
+  animation-name: bounceOutLeft;
   -webkit-animation-fill-mode: both;
-          animation-fill-mode: both;
+  animation-fill-mode: both;
   -webkit-animation-iteration-count: 1;
-          animation-iteration-count: 1;
+  animation-iteration-count: 1;
   -webkit-animation-delay: 0;
-          animation-delay: 0;
+  animation-delay: 0;
   -webkit-animation-duration: 0.72s;
-          animation-duration: 0.72s;
+  animation-duration: 0.72s;
   -webkit-animation-timing-function: cubic-bezier(0.17, 0.67, 0.83, 0.67);
-          animation-timing-function: cubic-bezier(0.17, 0.67, 0.83, 0.67);
+  animation-timing-function: cubic-bezier(0.17, 0.67, 0.83, 0.67);
 }
-.checkbow .checkbox ~ .rainbow:after {
+
+/*.checkbow .checkbox ~ .rainbow:after {
   content: '';
   display: block;
   width: 100%;
