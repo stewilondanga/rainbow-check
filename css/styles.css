@@ -29,14 +29,15 @@ body {
   overflow: hidden;
 }
 
-/*.checkbow .checkbox,
+.checkbow .checkbox,
 .checkbow .rainbow {
   position: absolute;
   top: 0;
   left: auto;
   right: auto;
 }
-.checkbow .rainbow,
+
+/*.checkbow .rainbow,
 .checkbow .bow {
   text-align: center;
   display: block;
