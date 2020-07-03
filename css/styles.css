@@ -164,7 +164,7 @@ body {
   animation-delay: .8s;
 }
 
-/*.checkbow .checkbox ~ .rainbow > .bow:nth-child(8) {
+.checkbow .checkbox~.rainbow>.bow:nth-child(8) {
   top: 48px;
   left: 20px;
   width: 80px;
@@ -172,7 +172,8 @@ body {
   background-color: #ecf0f1;
   z-index: 8;
 }
-.checkbow .checkbox ~ .rainbow > .bow:nth-child(8):not(.empty) {
+
+/*.checkbow .checkbox ~ .rainbow > .bow:nth-child(8):not(.empty) {
   -webkit-animation-delay: .9s;
           animation-delay: .9s;
 }
